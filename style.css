@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Spline+Sans+Mono:wght@500&display=swap');
+
+body{
+    background-color: black;
+}
+
+.card{
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 5px 20px;
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+
+h2{
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+.instagram{
+    list-style-image: url(./images/Insta.png);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.twitter{
+    list-style-image: url(./images/Twitter.png);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.youtube{
+    list-style-image: url(./images/Youtube.png);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
